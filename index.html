@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Card-MD</title>
+        <meta charset="'utf-8">
+        <script src="src/ecurity.js"></script>
+        <script>
+            function passHash() {
+                let d = document.getElementById("input");
+                let p = document.getElementById("output");
+
+                p.innerHTML = hash(d.innerHTML);
+            }
+        </script>
+    </head>
+    <body>
+        <input type="text" id="input">
+        <p id="output"></p>
+    </body>
+</html>
